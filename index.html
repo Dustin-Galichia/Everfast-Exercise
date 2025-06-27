@@ -17,24 +17,96 @@
 	<body>
         <!-- Header/Navbar Section -->
         <header>
-            <nav style="background-color: #06579E;">
-                <img src="imgs/everfast-logo.png" alt="Everfast Fiber Networks Logo" width="250">
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-fluid">
+                    <!-- Brand Logo -->
+                    <a href="#" class="navbar-brand"><img src="imgs/everfast-logo.png" alt="Everfast Fiber Networks Logo" width="250"></a>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <!-- Nav Links -->
-                <ul>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">Home Internet</a></li>
-                    <li><a href="">TV</a></li>
-                    <li><a href="">Small Business Solutions</a></li>
-                    <li><a href="">Enterprise Solutions</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Pay Bill</a></li>
-                </ul>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                       <!-- Nav Links -->
+                        <ul class="navbar-nav">
+                            <!-- Home Link -->
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active" aria-current="page">Home</a>
+                            </li>
 
+                            <!-- Contact Us Link -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+
+                            <!-- Home Internet Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home Internet
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">WiFi</a></li>
+
+                                    <li><a href="#" class="dropdown-item">Phone</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- TV Link -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TV</a>
+                            </li>
+
+                            <!-- Small Buisness Solutions Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Small Buisness Solutions
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">Internet</a></li>
+
+                                    <li><a href="#" class="dropdown-item">WiFi</a></li>
+
+                                    <li><a href="#" class="dropdown-item">EverFast VoIP</a></li>
+
+                                    <li><a href="#" class="dropdown-item">Network Security</a></li>
+
+                                    <li><a href="#" class="dropdown-item">Wide Area Networks (WAN)</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Enterprise Solutions Link -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Enterprise Solutions</a>
+                            </li>
+                            
+                            <!-- About Us Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    About Us
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">Community</a></li>
+
+                                    <li><a href="#" class="dropdown-item">News</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Bill Pay Link -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pay Bill</a>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+
+                <!-- Sign Up CTA -->
                 <a href="" class="btn btn-primary">SIGN UP NOW</a>
 
+                <!-- Account CTA -->
                 <a href="" class="btn btn-primary">MY ACCOUNT</a>
-
             </nav>
         </header>
 
