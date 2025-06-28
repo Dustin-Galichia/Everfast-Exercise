@@ -16,7 +16,7 @@
         <!-- external CSS link -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 		<!-- <link rel="stylesheet" href="css/normalize.css"> -->
 		<link rel="stylesheet" href="css/style.css">
@@ -24,7 +24,7 @@
 	</head>
 	<body>
         <!-- Header/Navbar Section -->
-        <header>
+        <header class="sticky-top">
             <div class="container">
                 <nav class="navbar navbar-expand-lg align-items-center">
                     <!-- Brand Logo -->
@@ -118,24 +118,28 @@
             </div>
         </header>
         
-        <main class="container">
-            <!-- Hero Section -->
-            <section class="row">
-                <!-- Hero Left Section -->
-                <div class="col">
-                    <h1>Your Local High Speed Internet Service in Kansas City</h1>
-
-                    <p>With EverFast, you'll enjoy lightning-fast internet that covers all your devices all the time so you can focus on what matters.</p>
-
-                    <a href="#" class="btn btn-primary">START SIGN UP</a>
-                </div>
-
-                <!-- Hero Right Section -->
-                <div class="col">
-                    <img src="" alt="Placeholder, Man pointing to left">
-                </div>
-            </section>
+        <main>
             
+            <!-- Hero Section -->
+             <section class="hero-wrapper d-flex align-items-center">
+                    <div class="container d-flex justify-content-between align-items-center">
+                        <!-- Hero Left Section -->
+                        <div>
+                            <h1 class="hero-title">Your Local High Speed Internet Service in Kansas City</h1>
+
+                            <p class="hero-text">With EverFast, you'll enjoy lightning-fast internet that covers all your devices all the time so you can focus on what matters.</p>
+
+                            <a href="#" class="btn btn-primary btn-style hero-cta"">START SIGN UP<i class="bi bi-caret-right-fill"></i></a>
+                        </div>
+
+                        <!-- Hero Right Section -->
+                        <div class="hero-right">
+                            <div class="circle-bg"></div>
+                            <img src="/imgs/your-only-local-internet.png" alt="Placeholder, Man pointing to left">
+                        </div>
+                    </div>
+             </section>
+             
             <!-- Internet Plan Section -->
             <section class="row">
                 <!-- Plan 1 Card -->
