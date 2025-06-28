@@ -49,6 +49,7 @@ header {
     line-height: 4rem;
     width: 80%;
 }
+
 .hero-text {
     font-family: 'Roboto';
     font-size: 28px;
@@ -113,3 +114,41 @@ header {
 }
 
 
+
+
+.section-wrapper {
+    background-color: var(--bg-header);
+}
+
+.reliable-title {
+    font-family: 'Marcellus';
+    font-size: 48px;
+    color: white;
+}
+
+.reliable-text {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: white;
+}
+
+.list-title {
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.list-solutions {
+    font-family: 'Inter';
+    font-size: 16px;
+    color: white;
+}
+
+.wrapper {
+    background-color: var(--bg-header);
+}
+
+.arrow-right {
+    color: #EAAF46;
+}
