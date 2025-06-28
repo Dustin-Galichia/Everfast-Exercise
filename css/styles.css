@@ -1,0 +1,31 @@
+:root {
+    --bg-header: #06579E;
+    --bg-button-gold:  linear-gradient(to right top, #ce7500, #d78721, #e19939, #eaab4f, #f3bd65, #f4bf66, #f6c066, #f7c267, #f1b552, #eba73d, #e59925, #df8b00);
+}
+
+
+header {
+    background-color: var(--bg-header);
+}
+
+.btn-style {
+    background-image: var(--bg-button-gold);
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 150px;
+}
+
+.nav-link-style{
+    font-family: "Roboto";
+    color: white;
+    font-size: 14px;
+
+}
+
+
+
+
