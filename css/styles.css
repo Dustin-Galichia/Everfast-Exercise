@@ -5,9 +5,18 @@
     --text-gold: #EAAF46;
 }
 
+body {
+    background-color: #fafafa;
+}
 
-header {
+
+header, 
+.bg-blue {
     background-color: var(--bg-header);
+}
+
+.text-white {
+    color: white;
 }
 
 .btn-style {
@@ -202,4 +211,42 @@ header {
 
 .lower-footer {
     border-top: 2px solid #1863A5;
+}
+
+.card-title {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-text {
+    font-size: 16px;
+    font-family: 'Inter';
+    color: white;
+}
+
+.btn-lm-style {
+background: #cfcfcf;
+background: linear-gradient(50deg, rgba(207, 207, 207, 1) 0%, rgba(24, 108, 171, 1) 25%, rgba(6, 87, 158, 1) 50%, rgba(6, 87, 158, 1) 75%, rgba(207, 207, 207, 1) 100%);    color: white;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 150px;
+}
+
+.serviced-title {
+    color: var(--bg-header);
+    font-size: 48px;
+    font-family: 'Marcellus';
+    width: 50%;
+}
+
+.service-card {
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.service-card img {
+    border-radius: 25px 25px 0 0;
 }
