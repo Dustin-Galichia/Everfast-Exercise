@@ -168,3 +168,38 @@ header {
     width: 60%;
     text-align: justify;    
 }
+
+.footer-title,
+.footer-list-title {
+    font-family: 'Inter';
+    font-size: 18px;
+    color: white;
+
+}
+
+.footer-text,
+.footer-list-item {
+    font-family: 'Inter';
+    font-size: 16px;
+    color: white;
+}
+
+.footer-list-item li a {
+    text-decoration: none;
+}
+
+.footer-subtext,
+.copyright {
+    font-family: 'Inter';
+    font-size: 12px;
+    color: white;
+}
+
+.footer-social-icon {
+    font-size: 32px;
+    color: white;
+}
+
+.lower-footer {
+    border-top: 2px solid #1863A5;
+}
